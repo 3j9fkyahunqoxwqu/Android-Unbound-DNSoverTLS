@@ -14,6 +14,7 @@ Google's implementation (in future Android versions)
 * 8.8.8.8 will be default (same as current)
 * Requests are been encrypted over Port 853
 * Prevents MITM
+* [DNS over TLS support in Android P Developer Preview](DNS over TLS support in Android P Developer Preview)
 
 
 Reference:
