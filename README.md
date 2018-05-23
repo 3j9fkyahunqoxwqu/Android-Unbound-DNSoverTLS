@@ -1,5 +1,5 @@
 ## Android-Unbound-DNSoverTLS
-A guide which shows how to get Android with Unbound / Stubby and DNSoverTLS working together.
+A guide which shows how to get Android with Unbound or Stubby and DNSoverTLS working together.
 
 [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/fold_left.svg?style=social&label=Follow%20%40CHEF-KOCH)](https://twitter.com/FZeven)
 [![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/CHEF-KOCH)
@@ -15,6 +15,12 @@ Google's implementation (in future Android versions)
 * Requests are been encrypted over Port 853
 * Prevents MITM
 * [DNS over TLS support in Android P Developer Preview](DNS over TLS support in Android P Developer Preview)
+
+
+Implementation Status:
+--------------
+
+* Everything implemented in Android P except Unbound (the current situation will be discusses internally which caching mechanism will be used in the upcoming Android version).
 
 
 Reference:
