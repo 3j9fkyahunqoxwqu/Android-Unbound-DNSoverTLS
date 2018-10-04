@@ -6,7 +6,7 @@ A guide which shows how to get Android with Unbound or Stubby and DNSoverTLS wor
 [![Discord](https://discordapp.com/api/guilds/418256415874875402/widget.png)](https://discord.me/CHEF-KOCH)
 
 
-Google's implementation (in future Android versions)
+Google's implementation in current Android versions 9+
 --------------
 
 * [RFC (7858)](https://tools.ietf.org/html/rfc7858)
@@ -60,10 +60,12 @@ Implementation Status:
 --------------
 
 * Everything implemented in Android P except Unbound (the current situation will be discusses internally which caching mechanism will be used in the upcoming Android version).
+* Google (Alphabet= released his official app called [Intra](https://getintra.org/?_escaped_fragment_=/) for Android 9 (Pie) which resolves DNS queries over DNS-over-HTTPS, it's backward compatible down to Android 4.0. The source code can be reviwed [here](https://github.com/Jigsaw-Code/intra).
 
 
 Reference:
 
+* https://medium.com/@JigsawTeam/introducing-intra-a-new-app-to-stop-dns-manipulation-f76de3f5d01
 * https://security.googleblog.com/2018/04/dns-over-tls-support-in-android-p.html
 * https://github.com/jedisct1/dnscrypt-proxy/issues/724
 * https://github.com/laggardkernel/dnscrypt-proxy-magisk
