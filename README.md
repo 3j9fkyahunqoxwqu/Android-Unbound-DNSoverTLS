@@ -1,4 +1,4 @@
-## Android-Unbound-DNSoverTLS
+## Android Unbound DNS-over-TLS
 A guide which shows how to get Android with Unbound or Stubby and DNSoverTLS working together.
 
 [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/fold_left.svg?style=social&label=Follow%20%40CHEF-KOCH)](https://twitter.com/CKsTechNews)
